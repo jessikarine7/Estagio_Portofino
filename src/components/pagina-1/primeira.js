@@ -26,7 +26,7 @@ export default function Main () {
 
         <div className="menu-container">
           <button onClick={onClick} className="menu-button">
-            <img className="img-m" width="40px" height="40px" src="https://img2.gratispng.com/20180422/uve/kisspng-hamburger-button-computer-icons-menu-clip-art-5adcc45cad2da2.9774904315244176287094.jpg" alt="menu"></img>
+            <img className="img-m" width="40px" height="40px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHsZj_u_adaZgB1garqMpcgiDYsJ-t1T68ukqiwx2t_Sg0LJ_2IPV_cKcNyPl2JmLGoEg&usqp=CAU" alt="menu"></img>
           </button>
           <nav className={`menu ${isActive ? "active" : "inactive"}`} ref={dropDrownRef}>
             <ul className="navegacao">
