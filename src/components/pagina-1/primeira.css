@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family: "S-Bold";
+    src: url("./fonts/SignikaNegative-Bold.ttf");
+}
+
+@font-face {
+    font-family: "S-Lith";
+    src: url("./fonts/SignikaNegative-Light.ttf");
+}
+
+@font-face {
+    font-family: "S-Regular";
+    src: url("./fonts/SignikaNegative-Regular.ttf");
+}
+
+@font-face {
+    font-family: "S-Semi";
+    src: url("./fonts/SignikaNegative-SemiBold.ttf");
+}
+
+
+/*--------------------------MENU------------------------*/
+
+.menu.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-container {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+.menu-button {
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 80px;
+}
+
+.menu {
+    opacity: 0;
+}
+
+.navegacao {
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+.navegacao li:hover {
+    background: #004166;
+}
+
+/*-----------------------------------------------------*/
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palavra {
+    font-family: S-Bold;
+}
+
+.nome{
+    font-family: S-Lith;
+    color:#004166;
+    font-size: 25px;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    width: 450px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.texto{
+    font-family: S-Semi;
+    padding-bottom: 40px;
+    color:#004166;
+    font-size: 50px;
+}
+
+.frase {
+    color: #0092E5;
+}
+
+.button {
+    border: none;
+    border-radius: 30px;
+    padding: 18px;
+    background: #0092E5;
+    color: #ffff;
+    font-size: 18px;
+    font-family: S-Semi;
+}
